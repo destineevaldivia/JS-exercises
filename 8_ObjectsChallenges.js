@@ -19,6 +19,10 @@
 // let obj3 = {};
 // keys(obj3); // []
 
+function keys () {
+    
+}
+
 // Exercise 2. Write a function called values, which accepts an object and returns an array of all of the values in the object.
 // IMPORTANT: Do not use the built in Object.values() function!
 // Examples:
