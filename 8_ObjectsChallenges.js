@@ -54,13 +54,13 @@ function values(obj) {
     return result;
 }
 
-let obj = { a: 1, b: 2, c: 3 };
+let obj4 = { a: 1, b: 2, c: 3 };
 console.log(values(obj)); // [1,2,3]
 
-let obj2 = { first: 'Matt', last: 'Lane', isDogOwner: true };
+let obj5 = { first: 'Matt', last: 'Lane', isDogOwner: true };
 console.log(values(obj2)); // ["Matt", "Lane", true]
 
-let obj3 = {};
+let obj6 = {};
 console.log(values(obj3)); // []
 
 // Exercise 3. Write a function called entries, which accepts an object and returns an array of arrays of key-value pairs.
@@ -82,13 +82,13 @@ function entries (obj) {
     }
 return result;
 }
-let obj = { a: 1, b: 2, c: 3 };
+let obj7 = { a: 1, b: 2, c: 3 };
 console.log(entries(obj));  //[["a",1], ["b",2], ["c",3]]
 
-let obj2 = { first: 'Matt', last: 'Lane', isDogOwner: true };
+let obj8 = { first: 'Matt', last: 'Lane', isDogOwner: true };
 console.log(entries(obj2));  //[["first","Matt"], ["last","Lane"], ["isDogOwner",true]]
 
-let obj3 = {};
+let obj9 = {};
 console.log(entries(obj3));   // []
 
 // Exercise 4. Write a function called pluck, which takes an array of objects and the name of a key.
